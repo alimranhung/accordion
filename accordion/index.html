@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Quickstart pack 2</title>
+		<meta name="viewport" content="width=divice-width, initial-scale=1">
+
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/responsive.css">
+
+
+		<script src="assets/js/jquery-3.3.1.slim.min.js"></script>
+	<style>
+		button.btn.active{
+			outline:none;
+
+		}
+	</style>
+	</head>
+	<body>
+		<div class="section-padding">
+			<div class="container">
+				<h3 class="text-center display-4">Collapse &amp; according</h3>
+					<button class="btn btn-primary text-capitalize mb-2" data-target="#collapse-1" data-toggle="collapse">read more</button>
+					<div class="collapse" id="collapse-1">
+						<div class="card">
+							<div class="card-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas corporis reiciendis eaque tempora totam accusamus consequuntur quos nam adipisci eos, placeat repellendus quas ut enim eius, eum quae, rem, odio.
+							</div>
+						</div>
+					</div>
+
+					<div id="accordion" role="tablist">
+						<div class="card">
+								<div class="card-header">
+									<h5 class="mb-0 font-weight-normal"><a href="#section-1" data-toggle="collapse">section-1 <i class="fa fa-plus"></i> <i class="fa fa-minus"></i></a></h5>
+								</div>
+								<div class="collapse show" id="section-1" data-parent="#accordion">
+										<div class="card-body">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, vel atque, quaerat quas mollitia nobis cupiditate autem commodi, at laborum odio nam cum, sequi veniam? Qui, deserunt? Accusamus, veritatis sapiente, eos excepturi nihil sit possimus dolores illo, quam, officiis ad?
+										</div>
+								</div>
+						</div>
+							<div class="card">
+									<div class="card-header">
+										<h5 class="mb-0 font-weight-normal"><a href="#section-2" data-toggle="collapse">section-2 <i class="fa fa-plus"></i> <i class="fa fa-minus"></i></a></h5>
+									</div>
+									<div class="collapse" id="section-2" data-parent="#accordion">
+											<div class="card-body">
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, vel atque, quaerat quas mollitia nobis cupiditate autem commodi, at laborum odio nam cum, sequi veniam? Qui, deserunt? Accusamus, veritatis sapiente, eos excepturi nihil sit possimus dolores illo, quam, officiis ad?
+											</div>
+									</div>
+							</div>
+								<div class="card">
+										<div class="card-header">
+											<h5 class="mb-0 font-weight-normal"><a href="#section-3" data-toggle="collapse">section-3 <i class="fa fa-plus"></i> <i class="fa fa-minus"></i></a></h5>
+										</div>
+										<div class="collapse" id="section-3" data-parent="#accordion">
+												<div class="card-body">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, vel atque, quaerat quas mollitia nobis cupiditate autem commodi, at laborum odio nam cum, sequi veniam? Qui, deserunt? Accusamus, veritatis sapiente, eos excepturi nihil sit possimus dolores illo, quam, officiis ad?
+												</div>
+										</div>
+								</div>
+					</div>
+			</div>
+		</div>
+		<script src="assets/js/popper-1.14.3.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
